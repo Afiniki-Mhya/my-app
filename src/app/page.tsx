@@ -4,15 +4,13 @@ import Image from "next/image";
 
 
 export default function HomePage(){
-
-
   return(
     <div className=" bg-[#d8dade] bg-cover min-h-screen ">
       {/* LOGO, NAVIGATION TOOLS AND THE LOG BUTTONS */}
       <div className=" bg-[#d8dade] px-7 pt-7 pb-3 shadow-md shadow-[#6d6d6d]">
         <nav className=" flex flex-row justify-between ">
           <div className=" flex flex-row  ">
-            <h1 className=" text-2xl font-bold ">Nash Digital Unlocked</h1>
+            <h1 className=" text-2xl font-bold ">N@sh Digital Unlocked</h1>
             <ul className=" flex flex-row pt-2 pl-10 gap-5">
               <li><a>Online Courses</a></li>
               <li><a>Certification</a></li>
@@ -41,7 +39,9 @@ export default function HomePage(){
         </div>
         <hr className=" mt-28 border-gray-350 "></hr>
         {/*  DETAILS AT THE BUTTOM OF THE PAGE */}
-        <div></div>
+        <div>
+          {/* PUT THE DETAILS FOR THE BUTTOM OF THE PAGE HERE */}
+        </div>
     </div>
   );
 }
