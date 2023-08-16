@@ -25,7 +25,7 @@ const Page = () => {
             Account <GrNext className='text-fuchsia-600 hover:text-black' />
           </button>
           <button className='flex justify-between bg-transparent px-6 py-2 rounded-md text-white hover:bg-[#d8dade] hover:text-black'>
-            Certification <GrNext className='text-fuchsia-600 hover:text-black' />
+            Certifications <GrNext className='text-fuchsia-600 hover:text-black' />
           </button>
         </div>
       </div>
